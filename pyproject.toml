@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pdf-merger-fast-api"
+version = "0.1.0"
+description = "A FastAPI application to merge PDF payslips"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.103.0"
+uvicorn = {extras = ["standard"], version = "^0.23.0"}
+PyPDF2 = "^3.0.0"
+python-multipart = "^0.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
